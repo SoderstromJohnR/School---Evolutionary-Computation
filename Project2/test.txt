@@ -1,0 +1,11 @@
+Anything else is allowed, though duplicates of specific arguments will be overwritten
+BitLength: 10 15 20 30
+Min: -1.0
+Max: 5.0
+Pop: 25
+Runs: 10
+Gens: 50
+CrossPoint: 14
+P_Cross: .45
+P_Mut: .05
+RandomSeed: 99
