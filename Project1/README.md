@@ -5,7 +5,16 @@ This project attempts to find a solution to an easy problem with this method. Gi
 
 We create several vectors of randomized values and then rate them. This problem provides an easy way to calculate the fitness - plug all three values into the above function. We prioritize the best vectors for selection, but we still allow some results from weaker solutions because parts of it might be better. After calculating the vectors for the next iteration (generation), we run it again and repeat.
 
+As shown in the partial output below, none of the results included a value of 0. However, as the generations progressed, the values overall went closer to 0.
 
+## Finding the next generation
+The three ways to determine the next generation are selection, crossover, and mutation. Each can change a little depending on the problem being solved. In this example, each vector is in the format (x, y, z), where each is a real number.
+
+Selection here randomly selects vectors from the previous generation to be used in the new one, with a favorable rate for the vectors with better fitness.
+
+Crossover will take random pairs of vectors and, given a starting position in the vector, swap all elements from there to the end. By default, this will select two vectors, decide if they will be crossed, and then swap their y and z values. So (x1, y1, z1) and (x2, y2, z2) will become (x1, y2, z2) and (x2, y1, z1).
+
+Mutation will take a vector and randomly, with a low chance, slightly shift the values. By default, the shift will be -0.1 or 0.1, clamped to the minimum and maximum values allowed.
 
 ## Partial Output
 Recall fitness is the result of x^2 + y^2 + z^2
