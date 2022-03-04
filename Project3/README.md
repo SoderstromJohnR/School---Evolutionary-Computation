@@ -1,4 +1,9 @@
-# Knapsack problem - Evolutionary Algorith
+# Knapsack problem - Evolutionary Algorithm
+Imagine a knapsack with several objects to add that are all worth different amounts of money. When leaving the site, you may only carry a certain amount of weight, and you want the highest value possible. A high value, low weight object would be ideal, and a low value, high weight object should be left unless capacity remains and no better objects exist.
+
+Objects are represented as bits or a bitstring as in project 2, but now must be represented with two numbers instead of one (weight and value).
+
+Selection, crossover, and mutation are not particularly different from previous projects. The fitness, however, is replaced by the value of each object. Solutions that go over capacity are penalized so they are less likely to show up in later generations. However, some elements of that poor solution may still be part of the best one, so allowing a chance for them to remain and get crossed into another solution allows those objects another chance.
 
 ## From project report for class
 **Penalty**
