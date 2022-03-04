@@ -29,7 +29,14 @@ Across all 30 runs
 40| 0.332663582999799
 50| 0.2820540025689745
 
-**Best-of-Runs,**
+**Best-of-Runs**
 :-----:
 Average Fitness, 0.26203359103355445
 Standard Deviation, 2.049849182629643
+
+Run 1's results
+
+**Random Seed:**|**54**|**Best Fitness:**|** 0.010864**|** Best Vector: 0.75131;-0.005082;0.072068**
+:-----:|:-----:|:-----:|:-----:|:-----:
+Generation| Average Fitness| Worst Fitness| Worst Fitness Vector| Best Fitness
+0| 20.713668| 61.056131| 3.473281;4.993205;4.905135| 1.349053
