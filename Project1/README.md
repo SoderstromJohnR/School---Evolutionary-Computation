@@ -36,7 +36,7 @@ Standard Deviation, 2.049849182629643
 
 Run 1's results
 
-**Random Seed:**|**54**|**Best Fitness:**|** 0.010864**|** Best Vector: 0.75131;-0.005082;0.072068**
-:-----:|:-----:|:-----:|:-----:|:-----:
-Generation| Average Fitness| Worst Fitness| Worst Fitness Vector| Best Fitness
-0| 20.713668| 61.056131| 3.473281;4.993205;4.905135| 1.349053
+**Random Seed:**|**54**|**Best Fitness:**|** 0.010864**|** Best Vector:**|** 0.75131;-0.005082;0.072068**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+Generation| Average Fitness| Worst Fitness| Worst Fitness Vector| Best Fitness| Best Fitness Vector
+0| 20.713668| 61.056131| 3.473281;4.993205;4.905135| 1.349053| -0.924184;0.594827;0.375654
